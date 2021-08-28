@@ -11,86 +11,116 @@
 
 <body>
     <header>
-        <img src="Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="logo site web Oh My Food">
+        <img src="\img\logos\ohmyfood.png" alt="logo site web Oh My Food">
         <div class="searchfield">
 			<i class="fas fa-map-marker-alt"></i>
-			<input type="text" value="Rechercher">
+			<input type="text" value="Paris, Belleville">
 			</div>
-            <div>
+        <div class="summary">
+            <div class="title">
                 Réservez le menu qui vous convient
             </div>
-            <div>
+            <div class="subtitle">
                 Découvrez des restaurants d'exeption,
-                séléctionnés par nos soins
+                séléctionnés par nos soins.
             </div>
             <input type="button" value="Explorer nos restaurants">
+        </div>
     </header>
 
-    <div>
+    <div class="stepstitle">
         Fonctionnement
-        <div>
+    </div>
+    <div class="steps">
+    <div>1</div>
+        <div class="selection">
+            <div class="choose">
+            <i class="fas fa-mobile-alt"></i>
             Choisissez votre restaurant
         </div>
-        <div>
+        </div>
+    </div>
+    <div>
+        <div>2</div>
+        <div class="selection">
+            <div class="choose">
+            <i class="fas fa-tasks"></i>
             Composez votre menu
         </div>
-        <div>
+        </div>
+    </div>
+    <div>
+        <div>3</div>
+        <div class="selection">
+            <div class="choose">
+            <i class="fas fa-store"></i>
             Dégustez au restaurant
         </div>
-
-    <div>
-        restaurants
+        </div>
     </div>
-    <div>
-        <a href="./layouts/la_palette_du_gout.html">
-        <img src="Maquettes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo restaurant La Palette du Gout" />
-        <div>
+    <section id="homepagemenu">
+    <div class="restaurants">
+        Restaurants
+    </div>
+    <div class="menu">
+        <a href="./layouts/la_palette_du_gout.html"</a>
+        <img src="\img\logos\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo restaurant La Palette du Gout" />
+        <div class="submenu">
             La Palette du Gout
+            <i class="far fa-heart"></i>
         </div>
-        <div>
+        <div class="districtmenu">
             Ménilmontant
-        </div>
-        </a>
+        </div> 
     </div>
-    <div>
-        <img src="Maquettes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="photo restaurant La Note Enchantée" />
-        <div>
+    <div class="menubis">
+        <a href="./layouts/la_note_enchantée.html"></a>
+        <img src="\img\logos\stil-u2Lp8tXIcjw-unsplash.jpg" alt="photo restaurant La note enchantée"/>
+        <div class="submenu">
             La Note Enchantée
+            <i class="far fa-heart"></i>
         </div>
-        <div>
+        <div class="districtmenu">
             Charonne
         </div>
     </div>
-    <div>
-        <img src="Maquettes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo restaurant A la Française" />
-        <div>
+    <div class="menu">
+        <a href="./layouts/a_la_francaise.html"></a>
+        <img src="\img\logos\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="photo restaurant A la française"/>
+        <div class="submenu">
             A la Française
+            <i class="far fa-heart"></i>
         </div>
-        <div>
+        <div class="districtmenu">
             Cité Rouge
         </div>
     </div>
-    <div>
-        <img src="Maquettes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="photo restaurant Le Délice des Sens" />
-        <div>
+    <div class="menu">
+        <a href="./layouts/Le_délice_des_sens.html"></a>
+        <img src="\img\logos\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="photo restaurant Le Délice des Sens"/>
+        <div class="submenu">
             Le Délice des Sens
+            <i class="far fa-heart"></i>
         </div>
-        <div>
+        <div class="districtmenu">
             Folie Méricourt
         </div>
     </div>
+    </section>
+
 
     <footer>
         <div>
-            <img src="Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="logo site web Oh My Food">
+            <img src="\img\logos\ohmyfood.png" alt="logo site web Oh My Food">
         </div>
         <div>
             <ul>
-				<li>Proposer un restaurant</li>
-				<li>Devenir partenaire</li>
-				<li>Mentions légales</li>
-                <li>Contact</li>
+				<li class="footertab"><i class="fas fa-utensils"></i><p class="flex">Proposer un restaurant</p></li>
+				<li class="footertab"><i class="fas fa-hands-helping"></i><p class="flex">Devenir partenaire</p></li>
+				<li class="footertabbis">Mentions légales</li>
+                <li class="footertabbis">Contact</li>
 			</ul>
         </div>
     </footer>   
 </body>
+</html>

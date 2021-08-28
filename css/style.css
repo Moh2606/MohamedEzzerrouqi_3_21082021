@@ -1,0 +1,241 @@
+header img
+{
+    display: flex;
+    margin-left: 6em;
+    width: 150px;
+}
+
+.searchfield
+{
+    display: flex;
+    margin-top: 1em;
+    height: 35px;
+    background-color: rgba(207, 204, 204, 0.924);
+}
+
+.searchfield input
+{
+    background-color: rgb(214, 211, 211);
+    border: none;
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+
+.fa-map-marker-alt
+{
+    display: flex;
+    align-items: center;
+    margin-left: 7em;
+}
+
+.summary
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.title
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: larger;
+    font-weight: bolder;
+    word-wrap: break-word;
+}
+
+.subtitle
+{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 48px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(153, 150, 150);
+}
+
+.summary input
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    width: 55%;
+    padding: 5%;
+    background: linear-gradient(to bottom right, rgb(235, 121, 235), rgb(168, 86, 216));
+    font-weight: bold;
+    color: white;
+}
+
+.stepstitle
+{
+    margin-top: 2em;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.steps
+{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.selection
+{
+    width: 350px;
+    height: 70px;
+    border: 1px solid rgb(207, 203, 203);
+    box-shadow: 1px 1px 2px;
+    border-radius: 0%;
+    font-weight: bolder;
+    font-size: 110%;
+    font-family: 'Lucida Sans';
+    border-radius: 20px;
+    background-color: rgb(245, 243, 243);
+}
+
+.choose
+{
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.fa-mobile-alt
+{
+    margin-right: 1em;
+    font-size: 120%;
+}
+
+.fa-tasks
+{
+    margin-right: 1em;
+    font-size: 120%;
+}
+
+.fa-store
+{
+    margin-right: 1em;
+    font-size: 120%;
+}
+
+#homepagemenu
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 241, 241);
+    margin-top: 5em;
+}
+
+.restaurants
+{
+    margin-top: 2em;
+    margin-left: 2em;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.menu
+
+{
+    width: 330px;
+    height: 320px;
+    border: 1px solid rgb(207, 203, 203);
+    box-shadow: 1px 1px 2px;
+    border-radius: 20px; 
+    margin-top: 2em; 
+    margin-left: 0.8em;
+}
+
+.menubis
+{
+    width: 330px;
+    height: 320px;
+    border: 1px solid rgb(207, 203, 203);
+    box-shadow: 1px 1px 2px;
+    border-radius: 20px; 
+    margin-top: 2em; 
+    margin-left: 0.8em;
+}
+
+.menu img
+{
+    width: 100%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+}
+
+.menubis img
+{
+    width: 330px;
+    height: 200px;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+}
+
+
+.submenu
+{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.districtmenu
+
+{
+    font-size: larger;
+    margin-left: 1em;
+}
+
+.fa-heart
+{
+    margin-left: 5em;
+    font-size: x-large;
+}
+
+footer
+{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 46, 46);
+}
+
+footer ul
+{
+    list-style: none;
+    color: white;
+    font-size: large;
+}
+
+.footertab
+{
+    display: flex;
+    flex-direction: row;    
+}
+
+.footertabbis
+{
+    margin-top: 1em;
+}
+
+.flex
+{
+    margin-left: 1em;
+}
+
+.fa-utensils
+{
+    margin-top: 1em;
+}
+
+.fa-hands-helping
+{
+    margin-top: 1em;
+}
+
